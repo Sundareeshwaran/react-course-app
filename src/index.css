@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Outfit";
+}
+
+nav a.active {
+  @apply border-b-4 border-b-slate-700 transition-all;
+}
